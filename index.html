@@ -45,7 +45,7 @@
         height: 60px;
         position: fixed;
         left:28%;
-        top:48.5%;
+        top:47.5%;
         border: solid black 0px;
         border-radius: 20px;
         background-color: #20e843;
@@ -54,17 +54,18 @@
       #borderd{
         position: fixed;
         left:50%;
-        top:50%;
+        top:60%;
+        font-size:40px;
       }
     </style>
   </head>
   <body>
     <div>
-    <label>Max Level:</label><input placeholder="Your num in int form" type="number" id="inputa" style="width:300px; height:90px">
-    <button id="submita" onclick="Gotnum()" style="width:200px; height:120px;">Submit</button>
+    <label>Max Level:</label><input placeholder="Your num in int form" type="number" id="inputa" style="width:430px; height:40px">
+    <button id="submita" onclick="Gotnum()" style="width:170px; height:40px;">Submit</button>
     <label style="position: fixed; top:48%; left:15%; font-size:50px;" id="fun">🔇</label><span id="borderb"></span>
     <span id="borderc"></span><h3 id="borderd"></h3>
-    <button id="plusx" onclick="plus()" style="background-color:#01ea34; left:20%;">+</button><h3>        </h3><button id="plusy" onclick="minus()" style="background-color:#ff0000; left:80%;">-</button>
+    <button id="plusx" onclick="plus()" style="background-color:#01ea34; left:20%; font-size:70px;">+</button><h3>        </h3><button id="plusy" onclick="minus()" style="background-color:#ff0000; left:80%; font-size:70px;">-</button>
     <button style="width:120px; height:80px; background-color:#9a0fd0; color:white; position: fixed; top:80%; left:80%;" href="codepre.txt">code--></button>
     </div>
   </body>
@@ -86,7 +87,7 @@
       alert("This assigning bar is only made for int numbers, so please input int numbers (ex:- natural numbers)")
       inptu-inptu;
     }
-    widht = 200/inptu
+    widht = 600/inptu
     document.getElementById("borderd").innerHTML=cont+"/"+inptu;
     document.getElementById("plusx").style.display="block"
     document.getElementById("plusy").style.display="block"
